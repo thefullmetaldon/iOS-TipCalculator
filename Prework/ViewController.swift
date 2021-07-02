@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Prework
 //
-//  Created by Adonis Deonarine on 7/1/21.
+//  Created by Kenneth Adonis Deonarine on 7/1/21.
 //
 
 import UIKit
@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        billAmountTextField.becomeFirstResponder()
     }
 
     @IBAction func calculateTip(_ sender: Any) {
